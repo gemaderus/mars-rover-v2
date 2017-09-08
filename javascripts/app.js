@@ -1,8 +1,6 @@
 // Rover Object Goes Here
 // ======================
 
-// ======================
-
 function addRover(rovers, n) {
   for (var i = 0; i < n; i++) {
     rovers.push({
@@ -117,7 +115,7 @@ var OBSTACLES = [
 ];
 var ROVERS = [];
 var COMANDOS = ['lffrbff', 'rbbrff', 'lfflff', 'rfflrff', 'lffrbb'];
-// var count = 0;
+
 addRover(ROVERS, 5);
 
 var positions = [];
